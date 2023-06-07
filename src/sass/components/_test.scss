@@ -1,0 +1,21 @@
+@keyframes codeCharAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.code-effect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-char {
+  animation: codeCharAnimation 0.5s forwards;
+  opacity: 0;
+}

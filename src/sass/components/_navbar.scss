@@ -1,0 +1,29 @@
+.navbar-item {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-icon {
+  display: flex;
+  a:not(:first-child) {
+    margin-left: 20px;
+  }
+  a {
+    fill: black;
+    width: 35px;
+    height: 35;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+.navbar-linc {
+  & div:not(:first-child) {
+    margin-left: 50px;
+  }
+  & div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  display: flex;
+}
