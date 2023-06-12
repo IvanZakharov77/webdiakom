@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import HeroFirstPage from './components/HeroFirstPage';
-import ModalPreview from './components/ModalPreview';
+import Preview from './components/Preview';
 import OurTools from './components/OurTools';
 import HowCreateSite from './components/HowCreateSite';
 
@@ -11,7 +11,7 @@ function App() {
       <HeroFirstPage />
       <OurTools />
       <HowCreateSite />
-      <ModalPreview />
+      <Preview />
     </div>
   );
 }

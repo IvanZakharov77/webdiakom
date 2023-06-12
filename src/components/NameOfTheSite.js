@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const Test = () => {
+const NameOfTheSite = () => {
   const [text, setText] = useState('');
 
   useEffect(() => {
@@ -33,4 +33,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default NameOfTheSite;

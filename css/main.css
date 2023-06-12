@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -199,6 +200,20 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 600px;
+  height: 400px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 9999;
+  overflow: auto; /* Добавьте прокрутку */
 }
 
 .preview {

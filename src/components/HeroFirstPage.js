@@ -7,7 +7,7 @@ import fiveimg from '../images/hero/5.jpg';
 import siximg from '../images/hero/6.jpg';
 import sevenimg from '../images/hero/7.jpg';
 import eightimg from '../images/hero/8.jpg';
-import Test from './Test';
+import NameOfTheSite from './NameOfTheSite';
 
 const HeroFirstPage = () => {
   const [startOfMovement, setStartOfMovement] = useState(false);
@@ -15,20 +15,22 @@ const HeroFirstPage = () => {
   const [textLoading, setTextLoading] = useState(false);
 
   useEffect(() => {
-    setStartOfMovement(true);
-    setAnimateBlock(true);
+    const timeoutOne = setTimeout(() => {
+      setStartOfMovement(true);
+      setAnimateBlock(true);
+    }, 500);
 
     const timeout = setTimeout(() => {
       setTextLoading(true);
     }, 3500);
 
-    return () => clearTimeout(timeout);
+    return () => clearTimeout(timeout, timeoutOne);
   }, []);
 
   return (
     <div className="hero">
       <div className={animateBlock ? 'header block-animation' : 'header'}>
-        {textLoading ? <Test /> : <></>}
+        {textLoading ? <NameOfTheSite /> : <></>}
       </div>
 
       <div id="axis" className="one">
