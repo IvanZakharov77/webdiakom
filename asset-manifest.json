@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.js": "/webdiakom/static/js/main.db4d68da.js",
+    "static/media/default.jpg": "/webdiakom/static/media/default.01ed0d0342671a0ef635.jpg",
+    "static/media/cafe.jpg": "/webdiakom/static/media/cafe.fba568a9bfef2a549cc1.jpg",
+    "static/media/bicycle.jpg": "/webdiakom/static/media/bicycle.a6f81ca7cbff9cf5982c.jpg",
+    "static/media/digital.jpg": "/webdiakom/static/media/digital.45b83d9b1218ac5a15b3.jpg",
+    "static/media/event.jpg": "/webdiakom/static/media/event.da79df07eb82eb0cebdb.jpg",
+    "static/media/bigcartel.jpg": "/webdiakom/static/media/bigcartel.9e7e20f30fa8d093d006.jpg",
+    "static/media/interior.jpg": "/webdiakom/static/media/interior.7478335fd37dfb3b464e.jpg",
+    "static/media/8.jpg": "/webdiakom/static/media/8.c14d6dd5824930993a25.jpg",
+    "static/media/ecommerce.jpg": "/webdiakom/static/media/ecommerce.3b80aa23379102a4f315.jpg",
+    "static/media/2.jpg": "/webdiakom/static/media/2.4f5e2eb4b5e15e64461b.jpg",
+    "static/media/3.jpg": "/webdiakom/static/media/3.97e0d246c2c282168aba.jpg",
+    "static/media/4.jpg": "/webdiakom/static/media/4.4109db27558f82f6056a.jpg",
+    "static/media/5.jpg": "/webdiakom/static/media/5.f00fecf0324a0856bc96.jpg",
+    "static/media/7.jpg": "/webdiakom/static/media/7.6a1e5c1dfc79c442e354.jpg",
+    "static/media/6.jpg": "/webdiakom/static/media/6.9f5a93f5af24a23a6569.jpg",
+    "static/media/1.jpg": "/webdiakom/static/media/1.eee73f5e52caa83708f9.jpg",
+    "static/media/react.png": "/webdiakom/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/php.png": "/webdiakom/static/media/php.4990580e9b615aeebb1f.png",
+    "static/media/sass.png": "/webdiakom/static/media/sass.c5da83bb9ff45b84e0e7.png",
+    "static/media/nodejs.png": "/webdiakom/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/wordpress.png": "/webdiakom/static/media/wordpress.11ed091523e3152b651f.png",
+    "static/media/bootstrap.png": "/webdiakom/static/media/bootstrap.772c1187fec10647bbc9.png",
+    "static/media/html.png": "/webdiakom/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/css.png": "/webdiakom/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/webdiakom/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/viber.svg": "/webdiakom/static/media/viber.61299efe4e534a1894cdc46fd0eb50ce.svg",
+    "static/media/phone.svg": "/webdiakom/static/media/phone.dd003cbf1193b8bfbab062c611db4452.svg",
+    "static/media/tablet.svg": "/webdiakom/static/media/tablet.c8c5e206d736451363cd3a19441c7b75.svg",
+    "static/media/telegram.svg": "/webdiakom/static/media/telegram.c20ec162d111213cd5cc0e524aebdce0.svg",
+    "static/media/facebook.svg": "/webdiakom/static/media/facebook.4de47a9b058c096caba94c6aadac76ae.svg",
+    "static/media/close.svg": "/webdiakom/static/media/close.c0208fb6dcd81a3eb06a358d91b1fbf0.svg",
+    "static/media/pc.svg": "/webdiakom/static/media/pc.aebb2887989bc64e81a62b7410e4a1dc.svg",
+    "static/media/insta.svg": "/webdiakom/static/media/insta.6a1401683b2b670783ca6a02f2376b85.svg",
+    "index.html": "/webdiakom/index.html",
+    "main.db4d68da.js.map": "/webdiakom/static/js/main.db4d68da.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.db4d68da.js"
+  ]
+}
