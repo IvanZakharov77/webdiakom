@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Popup from 'reactjs-popup';
 import defaultz from '../images/modal-preview/default.jpg';
 import interior from '../images/modal-preview/interior.jpg';
@@ -7,8 +8,16 @@ import bicycle from '../images/modal-preview/bicycle.jpg';
 import cafe from '../images/modal-preview/cafe.jpg';
 import digital from '../images/modal-preview/digital.jpg';
 import event from '../images/modal-preview/event.jpg';
+import closes from '../images/popupIcon/close.svg';
+import phone from '../images/popupIcon/phone.svg';
+import tablet from '../images/popupIcon/tablet.svg';
+import pc from '../images/popupIcon/pc.svg';
 
 const Preview = () => {
+  const [transformModal, setTransformModal] = useState('phone-window');
+  const funcTransformModal = (data) => {
+    setTransformModal(data);
+  };
   return (
     <div className="preview">
       <div>
@@ -24,8 +33,26 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button onClick={close}>Закрыть</button>
+                <button
+                  className="but-popup"
+                  onClick={() => {
+                    close();
+                    funcTransformModal('phone-window');
+                  }}
+                >
+                  <img className="icon-popup" src={closes} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                  <img className="icon-popup" src={phone} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
+                  <img className="icon-popup" src={tablet} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                  <img className="icon-popup" src={pc} />
+                </button>
                 <iframe
+                  className={transformModal}
                   src="https://ivanzakharov77.github.io/sparrow/"
                   title="Содержимое страницы"
                 />
@@ -45,8 +72,26 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button onClick={close}>Закрыть</button>
+                <button
+                  className="but-popup"
+                  onClick={() => {
+                    close();
+                    funcTransformModal('phone-window');
+                  }}
+                >
+                  <img className="icon-popup" src={closes} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                  <img className="icon-popup" src={phone} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
+                  <img className="icon-popup" src={tablet} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                  <img className="icon-popup" src={pc} />
+                </button>
                 <iframe
+                  className={transformModal}
                   src="https://ivanzakharov77.github.io/interior/"
                   title="Содержимое страницы"
                 />
@@ -73,8 +118,26 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button onClick={close}>Закрыть</button>
+                <button
+                  className="but-popup"
+                  onClick={() => {
+                    close();
+                    funcTransformModal('phone-window');
+                  }}
+                >
+                  <img className="icon-popup" src={closes} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                  <img className="icon-popup" src={phone} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
+                  <img className="icon-popup" src={tablet} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                  <img className="icon-popup" src={pc} />
+                </button>
                 <iframe
+                  className={transformModal}
                   src="https://ivanzakharov77.github.io/bigcartel/"
                   title="Содержимое страницы"
                 />
@@ -94,8 +157,26 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button onClick={close}>Закрыть</button>
+                <button
+                  className="but-popup"
+                  onClick={() => {
+                    close();
+                    funcTransformModal('phone-window');
+                  }}
+                >
+                  <img className="icon-popup" src={closes} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                  <img className="icon-popup" src={phone} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
+                  <img className="icon-popup" src={tablet} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                  <img className="icon-popup" src={pc} />
+                </button>
                 <iframe
+                  className={transformModal}
                   src="https://ivanzakharov77.github.io/bysicle/"
                   title="Содержимое страницы"
                 />
@@ -115,8 +196,29 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button onClick={close}>Закрыть</button>
-                <iframe src="https://ivanzakharov77.github.io/event/" title="Содержимое страницы" />
+                <button
+                  className="but-popup"
+                  onClick={() => {
+                    close();
+                    funcTransformModal('phone-window');
+                  }}
+                >
+                  <img className="icon-popup" src={closes} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                  <img className="icon-popup" src={phone} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
+                  <img className="icon-popup" src={tablet} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                  <img className="icon-popup" src={pc} />
+                </button>
+                <iframe
+                  className={transformModal}
+                  src="https://ivanzakharov77.github.io/event/"
+                  title="Содержимое страницы"
+                />
               </div>
             )}
           </Popup>
@@ -135,8 +237,29 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button onClick={close}>Закрыть</button>
-                <iframe src="https://ivanzakharov77.github.io/cafe/" title="Содержимое страницы" />
+                <button
+                  className="but-popup"
+                  onClick={() => {
+                    close();
+                    funcTransformModal('phone-window');
+                  }}
+                >
+                  <img className="icon-popup" src={closes} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                  <img className="icon-popup" src={phone} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
+                  <img className="icon-popup" src={tablet} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                  <img className="icon-popup" src={pc} />
+                </button>
+                <iframe
+                  className={transformModal}
+                  src="https://ivanzakharov77.github.io/cafe/"
+                  title="Содержимое страницы"
+                />
               </div>
             )}
           </Popup>
@@ -153,8 +276,26 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button onClick={close}>Закрыть</button>
+                <button
+                  className="but-popup"
+                  onClick={() => {
+                    close();
+                    funcTransformModal('phone-window');
+                  }}
+                >
+                  <img className="icon-popup" src={closes} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                  <img className="icon-popup" src={phone} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
+                  <img className="icon-popup" src={tablet} />
+                </button>
+                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                  <img className="icon-popup" src={pc} />
+                </button>
                 <iframe
+                  className={transformModal}
                   src="https://ivanzakharov77.github.io/digital/"
                   title="Содержимое страницы"
                 />
