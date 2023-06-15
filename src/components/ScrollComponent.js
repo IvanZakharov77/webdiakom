@@ -18,12 +18,12 @@ class ScrollComponent extends Component {
   render() {
     return (
       <div onWheel={this.handleScroll}>
-        <Navbar />,
-        <HeroFirstPage />,
-        <OurTools />,
-        <HowCreateSite />,
-        <Preview />,
-        <Footer />,
+        <Navbar />
+        <HeroFirstPage />
+        <OurTools />
+        <HowCreateSite />
+        <Preview />
+        <Footer />
       </div>
     );
   }
