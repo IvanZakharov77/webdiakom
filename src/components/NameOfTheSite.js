@@ -4,7 +4,7 @@ const NameOfTheSite = () => {
   const [text, setText] = useState('');
 
   useEffect(() => {
-    const phrase = 'WEB DIAKOM';
+    const phrase = '/WeB DIAKOM_';
 
     const interval = setInterval(() => {
       if (text.length === phrase.length) {
@@ -13,7 +13,7 @@ const NameOfTheSite = () => {
         const nextChar = phrase[text.length];
         setText((prevText) => prevText + nextChar);
       }
-    }, 200); // Изменяйте интервал по желанию
+    }, 200);
 
     return () => {
       clearInterval(interval);

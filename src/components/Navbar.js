@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import insta from '../images/insta.svg';
 import facebook from '../images/facebook.svg';
 import phone from '../images/phone.svg';
@@ -5,6 +6,8 @@ import telegram from '../images/telegram.svg';
 import viber from '../images/viber.svg';
 
 const Navbar = () => {
+  const [scroll, setScroll] = useState(0);
+
   return (
     <div className="navbar">
       <div className="navbar-item">

@@ -1,4 +1,60 @@
 .create-site {
+  background-color: rgb(36, 36, 36);
+  padding: 50px;
+  margin-bottom: 100px;
+  color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  &:first-child {
+    margin-bottom: 50px;
+  }
+  div:first-child {
+    background-color: rgb(135, 25, 226);
+  }
+  div:first-child:hover,
+  div:first-child:focus {
+    box-shadow: 0px 0px 14px 12px rgba(170, 30, 214, 0.52);
+  }
+  div:nth-child(2) {
+    background-color: rgb(25, 146, 226);
+  }
+  div:nth-child(2):hover,
+  div:nth-child(2):focus {
+    box-shadow: 0px 0px 14px 12px rgba(30, 157, 214, 0.2);
+  }
+  div:nth-child(3) {
+    background-color: rgb(226, 82, 25);
+  }
+  div:nth-child(3):hover,
+  div:nth-child(3):focus {
+    box-shadow: 0px 0px 14px 12px rgba(214, 119, 30, 0.2);
+  }
+  div:nth-child(4) {
+    background-color: rgb(79, 187, 16);
+  }
+  div:nth-child(4):hover,
+  div:nth-child(4):focus {
+    box-shadow: 0px 0px 14px 12px rgba(67, 214, 30, 0.2);
+  }
+  div:nth-child(5) {
+    background-color: rgb(184, 24, 91);
+  }
+  div:nth-child(5):hover,
+  div:nth-child(5):focus {
+    box-shadow: 0px 0px 14px 12px rgba(214, 30, 137, 0.2);
+  }
+  div {
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+  }
 }
