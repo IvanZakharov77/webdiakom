@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/webdiakom/static/js/main.3e485e03.js",
+    "main.js": "/webdiakom/static/js/main.66f74a68.js",
     "static/media/default.jpg": "/webdiakom/static/media/default.01ed0d0342671a0ef635.jpg",
     "static/media/cafe.jpg": "/webdiakom/static/media/cafe.fba568a9bfef2a549cc1.jpg",
     "static/media/bicycle.jpg": "/webdiakom/static/media/bicycle.a6f81ca7cbff9cf5982c.jpg",
@@ -40,9 +40,9 @@
     "index.html": "/webdiakom/index.html",
     "static/media/pc.svg": "/webdiakom/static/media/pc.aebb2887989bc64e81a62b7410e4a1dc.svg",
     "static/media/insta.svg": "/webdiakom/static/media/insta.6a1401683b2b670783ca6a02f2376b85.svg",
-    "main.3e485e03.js.map": "/webdiakom/static/js/main.3e485e03.js.map"
+    "main.66f74a68.js.map": "/webdiakom/static/js/main.66f74a68.js.map"
   },
   "entrypoints": [
-    "static/js/main.3e485e03.js"
+    "static/js/main.66f74a68.js"
   ]
 }
