@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/webdiakom/static/js/main.db4d68da.js",
+    "main.js": "/webdiakom/static/js/main.3e485e03.js",
     "static/media/default.jpg": "/webdiakom/static/media/default.01ed0d0342671a0ef635.jpg",
     "static/media/cafe.jpg": "/webdiakom/static/media/cafe.fba568a9bfef2a549cc1.jpg",
     "static/media/bicycle.jpg": "/webdiakom/static/media/bicycle.a6f81ca7cbff9cf5982c.jpg",
@@ -27,17 +27,22 @@
     "static/media/css.png": "/webdiakom/static/media/css.4a6549b8c2b4cda8bb88.png",
     "static/media/js.png": "/webdiakom/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/viber.svg": "/webdiakom/static/media/viber.61299efe4e534a1894cdc46fd0eb50ce.svg",
+    "static/media/document.svg": "/webdiakom/static/media/document.5077c921373eae56518834aa4cb81f37.svg",
+    "static/media/project.svg": "/webdiakom/static/media/project.d4ad4539d93d140820617eb427d50786.svg",
     "static/media/phone.svg": "/webdiakom/static/media/phone.dd003cbf1193b8bfbab062c611db4452.svg",
+    "static/media/business.svg": "/webdiakom/static/media/business.c2cd84662f72aeb9dada770cd9d34b73.svg",
     "static/media/tablet.svg": "/webdiakom/static/media/tablet.c8c5e206d736451363cd3a19441c7b75.svg",
     "static/media/telegram.svg": "/webdiakom/static/media/telegram.c20ec162d111213cd5cc0e524aebdce0.svg",
+    "static/media/layout.svg": "/webdiakom/static/media/layout.cbecbb8265d130938a169a55e2dc6448.svg",
     "static/media/facebook.svg": "/webdiakom/static/media/facebook.4de47a9b058c096caba94c6aadac76ae.svg",
+    "static/media/development.svg": "/webdiakom/static/media/development.29ae3e696a182e072b59e2d91d7c6c89.svg",
     "static/media/close.svg": "/webdiakom/static/media/close.c0208fb6dcd81a3eb06a358d91b1fbf0.svg",
+    "index.html": "/webdiakom/index.html",
     "static/media/pc.svg": "/webdiakom/static/media/pc.aebb2887989bc64e81a62b7410e4a1dc.svg",
     "static/media/insta.svg": "/webdiakom/static/media/insta.6a1401683b2b670783ca6a02f2376b85.svg",
-    "index.html": "/webdiakom/index.html",
-    "main.db4d68da.js.map": "/webdiakom/static/js/main.db4d68da.js.map"
+    "main.3e485e03.js.map": "/webdiakom/static/js/main.3e485e03.js.map"
   },
   "entrypoints": [
-    "static/js/main.db4d68da.js"
+    "static/js/main.3e485e03.js"
   ]
 }
