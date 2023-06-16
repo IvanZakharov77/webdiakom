@@ -1,5 +1,6 @@
 .preview {
   display: flex;
+
   @media screen and (max-width: 599px) and (min-width: 350px) {
     display: block;
   }

@@ -1,9 +1,24 @@
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  position: fixed;
+
+  z-index: 5;
+  background-color: white;
+  width: 100%;
+}
 .navbar-item {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo {
+  font-size: 25px;
+  font-weight: 700;
 }
 .nav-icon {
   display: flex;
+  margin-left: 100px;
   a:not(:first-child) {
     margin-left: 20px;
   }
@@ -18,11 +33,11 @@
   }
 }
 .navbar-linc {
+  margin-left: 100px;
   & div:not(:first-child) {
     margin-left: 50px;
   }
   & div {
-    margin-top: 20px;
     margin-bottom: 20px;
   }
   display: flex;
