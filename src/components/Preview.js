@@ -18,6 +18,8 @@ const Preview = () => {
   const funcTransformModal = (data) => {
     setTransformModal(data);
   };
+  const screenWidth = window.outerWidth;
+  console.log(screenWidth > 1024);
   return (
     <div className="preview">
       <div>
@@ -33,24 +35,40 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button
-                  className="but-popup"
-                  onClick={() => {
-                    close();
-                    funcTransformModal('phone-window');
-                  }}
-                >
-                  <img className="icon-popup" src={closes} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
-                  <img className="icon-popup" src={phone} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
-                  <img className="icon-popup" src={tablet} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
-                  <img className="icon-popup" src={pc} />
-                </button>
+                <div className="btn-icon-screen">
+                  <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                    <img className="icon-popup" src={phone} />
+                  </button>
+                  {screenWidth > 800 ? (
+                    <button
+                      className="but-popup"
+                      onClick={() => funcTransformModal('table-window')}
+                    >
+                      <img className="icon-popup" src={tablet} />
+                    </button>
+                  ) : (
+                    <></>
+                  )}
+
+                  {screenWidth > 1024 ? (
+                    <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                      <img className="icon-popup" src={pc} />
+                    </button>
+                  ) : (
+                    <></>
+                  )}
+
+                  <button
+                    className="but-popup"
+                    onClick={() => {
+                      close();
+                      funcTransformModal('phone-window');
+                    }}
+                  >
+                    <img className="icon-popup" src={closes} />
+                  </button>
+                </div>
+
                 <iframe
                   className={transformModal}
                   src="https://ivanzakharov77.github.io/sparrow/"
@@ -72,24 +90,38 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button
-                  className="but-popup"
-                  onClick={() => {
-                    close();
-                    funcTransformModal('phone-window');
-                  }}
-                >
-                  <img className="icon-popup" src={closes} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
-                  <img className="icon-popup" src={phone} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
-                  <img className="icon-popup" src={tablet} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
-                  <img className="icon-popup" src={pc} />
-                </button>
+                <div className="btn-icon-screen">
+                  <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                    <img className="icon-popup" src={phone} />
+                  </button>
+                  {screenWidth > 800 ? (
+                    <button
+                      className="but-popup"
+                      onClick={() => funcTransformModal('table-window')}
+                    >
+                      <img className="icon-popup" src={tablet} />
+                    </button>
+                  ) : (
+                    <></>
+                  )}
+
+                  {screenWidth > 1024 ? (
+                    <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                      <img className="icon-popup" src={pc} />
+                    </button>
+                  ) : (
+                    <></>
+                  )}
+                  <button
+                    className="but-popup"
+                    onClick={() => {
+                      close();
+                      funcTransformModal('phone-window');
+                    }}
+                  >
+                    <img className="icon-popup" src={closes} />
+                  </button>
+                </div>
                 <iframe
                   className={transformModal}
                   src="https://ivanzakharov77.github.io/interior/"
@@ -118,24 +150,38 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button
-                  className="but-popup"
-                  onClick={() => {
-                    close();
-                    funcTransformModal('phone-window');
-                  }}
-                >
-                  <img className="icon-popup" src={closes} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
-                  <img className="icon-popup" src={phone} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
-                  <img className="icon-popup" src={tablet} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
-                  <img className="icon-popup" src={pc} />
-                </button>
+                <div className="btn-icon-screen">
+                  <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                    <img className="icon-popup" src={phone} />
+                  </button>
+                  {screenWidth > 800 ? (
+                    <button
+                      className="but-popup"
+                      onClick={() => funcTransformModal('table-window')}
+                    >
+                      <img className="icon-popup" src={tablet} />
+                    </button>
+                  ) : (
+                    <></>
+                  )}
+
+                  {screenWidth > 1024 ? (
+                    <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                      <img className="icon-popup" src={pc} />
+                    </button>
+                  ) : (
+                    <></>
+                  )}
+                  <button
+                    className="but-popup"
+                    onClick={() => {
+                      close();
+                      funcTransformModal('phone-window');
+                    }}
+                  >
+                    <img className="icon-popup" src={closes} />
+                  </button>
+                </div>
                 <iframe
                   className={transformModal}
                   src="https://ivanzakharov77.github.io/bigcartel/"
@@ -157,24 +203,38 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button
-                  className="but-popup"
-                  onClick={() => {
-                    close();
-                    funcTransformModal('phone-window');
-                  }}
-                >
-                  <img className="icon-popup" src={closes} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
-                  <img className="icon-popup" src={phone} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
-                  <img className="icon-popup" src={tablet} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
-                  <img className="icon-popup" src={pc} />
-                </button>
+                <div className="btn-icon-screen">
+                  <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                    <img className="icon-popup" src={phone} />
+                  </button>
+                  {screenWidth > 800 ? (
+                    <button
+                      className="but-popup"
+                      onClick={() => funcTransformModal('table-window')}
+                    >
+                      <img className="icon-popup" src={tablet} />
+                    </button>
+                  ) : (
+                    <></>
+                  )}
+
+                  {screenWidth > 1024 ? (
+                    <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                      <img className="icon-popup" src={pc} />
+                    </button>
+                  ) : (
+                    <></>
+                  )}
+                  <button
+                    className="but-popup"
+                    onClick={() => {
+                      close();
+                      funcTransformModal('phone-window');
+                    }}
+                  >
+                    <img className="icon-popup" src={closes} />
+                  </button>
+                </div>
                 <iframe
                   className={transformModal}
                   src="https://ivanzakharov77.github.io/bysicle/"
@@ -196,24 +256,26 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button
-                  className="but-popup"
-                  onClick={() => {
-                    close();
-                    funcTransformModal('phone-window');
-                  }}
-                >
-                  <img className="icon-popup" src={closes} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
-                  <img className="icon-popup" src={phone} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
-                  <img className="icon-popup" src={tablet} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
-                  <img className="icon-popup" src={pc} />
-                </button>
+                <div className="btn-icon-screen">
+                  <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                    <img className="icon-popup" src={phone} />
+                  </button>
+                  <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
+                    <img className="icon-popup" src={tablet} />
+                  </button>
+                  <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                    <img className="icon-popup" src={pc} />
+                  </button>
+                  <button
+                    className="but-popup"
+                    onClick={() => {
+                      close();
+                      funcTransformModal('phone-window');
+                    }}
+                  >
+                    <img className="icon-popup" src={closes} />
+                  </button>
+                </div>
                 <iframe
                   className={transformModal}
                   src="https://ivanzakharov77.github.io/event/"
@@ -237,24 +299,26 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button
-                  className="but-popup"
-                  onClick={() => {
-                    close();
-                    funcTransformModal('phone-window');
-                  }}
-                >
-                  <img className="icon-popup" src={closes} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
-                  <img className="icon-popup" src={phone} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
-                  <img className="icon-popup" src={tablet} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
-                  <img className="icon-popup" src={pc} />
-                </button>
+                <div className="btn-icon-screen">
+                  <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                    <img className="icon-popup" src={phone} />
+                  </button>
+                  <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
+                    <img className="icon-popup" src={tablet} />
+                  </button>
+                  <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                    <img className="icon-popup" src={pc} />
+                  </button>
+                  <button
+                    className="but-popup"
+                    onClick={() => {
+                      close();
+                      funcTransformModal('phone-window');
+                    }}
+                  >
+                    <img className="icon-popup" src={closes} />
+                  </button>
+                </div>
                 <iframe
                   className={transformModal}
                   src="https://ivanzakharov77.github.io/cafe/"
@@ -276,24 +340,26 @@ const Preview = () => {
           >
             {(close) => (
               <div>
-                <button
-                  className="but-popup"
-                  onClick={() => {
-                    close();
-                    funcTransformModal('phone-window');
-                  }}
-                >
-                  <img className="icon-popup" src={closes} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
-                  <img className="icon-popup" src={phone} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
-                  <img className="icon-popup" src={tablet} />
-                </button>
-                <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
-                  <img className="icon-popup" src={pc} />
-                </button>
+                <div className="btn-icon-screen">
+                  <button className="but-popup" onClick={() => funcTransformModal('phone-window')}>
+                    <img className="icon-popup" src={phone} />
+                  </button>
+                  <button className="but-popup" onClick={() => funcTransformModal('table-window')}>
+                    <img className="icon-popup" src={tablet} />
+                  </button>
+                  <button className="but-popup" onClick={() => funcTransformModal('pc-window')}>
+                    <img className="icon-popup" src={pc} />
+                  </button>
+                  <button
+                    className="but-popup"
+                    onClick={() => {
+                      close();
+                      funcTransformModal('phone-window');
+                    }}
+                  >
+                    <img className="icon-popup" src={closes} />
+                  </button>
+                </div>
                 <iframe
                   className={transformModal}
                   src="https://ivanzakharov77.github.io/digital/"

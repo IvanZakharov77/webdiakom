@@ -4,7 +4,7 @@ const NameOfTheSite = () => {
   const [text, setText] = useState('');
 
   useEffect(() => {
-    const phrase = '/WeB DIAKOM_';
+    const phrase = '/WeB DIAKOM';
 
     const interval = setInterval(() => {
       if (text.length === phrase.length) {
@@ -28,6 +28,7 @@ const NameOfTheSite = () => {
             {char}
           </span>
         ))}
+        _
       </h1>
     </div>
   );
